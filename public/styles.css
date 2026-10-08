@@ -6,3 +6,4 @@
 @media(min-width:980px){.intro{grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:5rem;padding-block:5.6rem}.featured-layout{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:5rem;padding-block:3.5rem}.projects-section{padding-block:4.5rem}.project{padding-block:2rem}.site-header nav{margin-left:auto;margin-right:1.4rem}.about-section{gap:6rem}}
 @media(max-width:420px){.brand{font-size:.8rem}.brand-mark{font-size:1.5rem}.site-header nav{order:3;width:100%;justify-content:space-between}.site-header{padding-block:1rem}.intro{padding-top:2.5rem}.evidence-index{padding:1.2rem}.project{grid-template-columns:1.6rem minmax(0,1fr);gap:.65rem}.filters button{font-size:.85rem;padding:.6rem}.section-heading{gap:1rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.concept-note{margin:1rem 0 0;font-size:.9rem;line-height:1.65;color:var(--muted)}

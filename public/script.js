@@ -10,8 +10,8 @@ if (chosenTheme !== 'light' && chosenTheme !== 'dark') chosenTheme = null;
 function applyTheme(theme) {
   root.dataset.theme = theme;
   const dark = theme === 'dark';
-  themeButton.textContent = dark ? 'Tema terang' : 'Tema gelap';
-  themeButton.setAttribute('aria-label', dark ? 'Aktifkan tema terang' : 'Aktifkan tema gelap');
+  themeButton.textContent = dark ? 'Light theme' : 'Dark theme';
+  themeButton.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
   themeButton.setAttribute('aria-pressed', String(dark));
   document.querySelector('meta[name="theme-color"]').content = dark ? '#131b17' : '#f7f9f8';
 }
@@ -43,5 +43,5 @@ filters.addEventListener('click', event => {
     project.hidden = category !== 'all' && project.dataset.category !== category;
     if (!project.hidden) count++;
   });
-  projectCount.textContent = `${count} proyek ditampilkan`;
+  projectCount.textContent = `${count} projects shown`;
 });

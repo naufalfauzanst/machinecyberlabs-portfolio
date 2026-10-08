@@ -1,6 +1,6 @@
 # Machine Cyber Labs
 
-Portofolio pribadi Naufal, berdasarkan enam repository publik GitHub `naufalfauzanst`. Website satu halaman berbahasa Indonesia dengan filter bidang, catatan proyek, dan tema terang/gelap.
+Naufal's English-language portfolio, based on six public GitHub repositories. The one-page website includes project filters, research limitations, light/dark themes, and a clearly labeled concept for a planned Claude-assisted SOC triage tool.
 
 ## Deployment
 
@@ -12,4 +12,4 @@ Tambahkan `machinecyberlabs.cloud` melalui Settings > Domains, lalu pasang recor
 
 Edit `public/index.html` untuk mengganti deskripsi atau tautan proyek. Edit `public/styles.css` untuk tampilan, dan `public/script.js` untuk filter serta tema. Seluruh proyek tetap terlihat jika JavaScript tidak tersedia.
 
-Deskripsi proyek bersumber dari README publik pada 8 Oktober 2026. Ini portofolio pribadi; tidak mengklaim bisnis berbadan hukum, pelanggan, sertifikasi, atau kelayakan Claude Startups.
+Project descriptions come from public READMEs inspected on 8 October 2026. The product concept was proposed at the owner's request. Claude integration is planned, not implemented. This website does not claim incorporation, customers, certifications, startup acceptance, or a released SOC assistant.
