@@ -2,3 +2,6 @@
 node_modules/
 .env*
 preview-*.png
+preview-*.jpg
+CLAUDE-STARTUPS-APPLICATION.md
+VERIFICATION.md
